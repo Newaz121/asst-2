@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------------header------
+------------------------------------ */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.logo a{
+    text-decoration: none;
+    color: #E02C6D;;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.navigation{
+   
+    display: flex;
+}
+.navigation li {
+    list-style: none;
+    margin: 10px;
+}
+.navigation li a{
+    text-decoration: none;
+    color: #E02C6D;;
+    font-size: 20px;
+}
+/* camera section */
+.camera{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.camera-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.camera-left h1{
+    font-weight: bold;
+    font-size: 52px;
+}
+.camera-left p{
+    font-size: 20px;
+}
+.color{
+    color: #E02C6D;
+}
+.camera-right img{
+    width: 475px;
+    height: 475px;
+    margin-left: 50px;
+}
+.primary-button{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+
+}
+.fa-long-arrow-alt-right{
+    
+    
+}
