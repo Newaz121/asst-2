@@ -209,7 +209,7 @@ footer{
  /* responsive for tablet */
  /* responsive for tablet ------------------*/
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1363px){
     .navigation li{
         display: none;
     }
