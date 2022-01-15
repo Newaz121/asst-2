@@ -175,13 +175,16 @@ nav{
     border: 1px solid #E02C6D;
 }
 /* --------Footer------- */
+footer{
+    margin-top: 100px;
+}
 .footer{
     margin-top: 30px;
     background-color: #0A0826;
     color: white;
     text-align: center;
     padding:  20px;
-    margin-top: 70px;
+   
 
 }
 
