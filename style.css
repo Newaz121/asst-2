@@ -207,7 +207,7 @@ footer{
  /* responsive for tablet ------------------*/
 
 @media only screen and (max-width: 1000px){
-    .nav ul{
+    .navigation li{
         display: none;
     }
     .camera-left h1{
@@ -267,6 +267,10 @@ footer{
                 height: auto;
                 width: 200px;
             }
+            .container{
+                display: grid;
+                justify-content: center;
+            }
 
 }
 
@@ -275,8 +279,12 @@ footer{
  /* responsive for mobile */
  /* responsive for mobile ------------------*/
 
- @media only screen and (max-width: 700px){
-    .nav ul{
+ @media only screen and (max-width: 762px){
+     .container{
+         display: block;
+
+     }
+    .navigation li{
         display: none;
     }
     .camera-left h1{
@@ -289,15 +297,20 @@ footer{
     }
     .camera-right img{
         height: auto;
-        width: 300px;
+        width: 200px;
     }
 
+    .container{
+        display: grid;
+        justify-content: center;
+    }
 
     .photo-frame{
              width: 80%;
             display: grid;
             grid-template-columns: 1fr ;
             column-gap: 50px;
+            justify-content: center;
             }
      .photo-frame img{
                 width: 100%;
@@ -332,9 +345,22 @@ footer{
             }
             
             .contact-right{
-                margin-top: -72px;
+                margin-top: -20px;
                 height: auto;
                 width: 200px;
             }
+            .primary-button{
+                padding: 10px 24px;
+                background-color: #E02C6D;
+                color: white;
+                border: none;
+                border-radius: 41px;
+                font-weight: bold;
+                font-size: 10px;
+                margin-top: 16px;
+                cursor: pointer;
+            
+            }
+
 
 }
