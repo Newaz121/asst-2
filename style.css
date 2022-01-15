@@ -86,6 +86,20 @@ nav{
 .primary-button:hover{
     background-color: #FB8200;
 }
+/* ----------------------------logos */
+
+.logos{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 100px;
+    border-bottom: 2px solid #E02C6D;
+    border-top: 2px solid #E02C6D;
+    padding: 20px;
+}
+
+
 /* ----------popular-collection--
 ------------------------------------- */
 
@@ -144,13 +158,13 @@ nav{
 }
 .contact-right{
     padding-left: 30px;
-}
-
-.contact-right form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+}
+
+.contact-right h2{
+    font-size: 40px;
 }
 .text-field{
     width: 100%;
@@ -167,8 +181,10 @@ nav{
     color: white;
     text-align: center;
     padding:  20px;
+    margin-top: 70px;
 
 }
+
 .social{
     font-size: 20px;
     margin-top: 17px;
@@ -176,4 +192,146 @@ nav{
 }
 .social i{
     margin-right: 20px;
+    cursor: pointer;
+}
+.social i:hover{
+    color: #E02C6D;
+}
+
+     /*------------ responsive for tablet */
+ /* responsive for tablet */
+ /* responsive for tablet */
+ /* responsive for tablet ------------------*/
+
+@media only screen and (max-width: 1000px){
+    .nav ul{
+        display: none;
+    }
+    .camera-left h1{
+        font-size: 25px;
+        
+    }
+    .camera-left p{
+        font-size: 14px;
+       
+    }
+    .camera-right img{
+        height: auto;
+        width: 300px;
+    }
+
+
+    .photo-frame{
+             width: 80%;
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            column-gap: 50px;
+            }
+     .photo-frame img{
+                width: 100%;
+                height: auto;
+            }
+    .logos{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                align-items: center;
+                justify-content: center
+            }
+     .logos img{
+                margin-top: 30px;
+            }
+            .contact{
+                width: 80%;
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                column-gap: 50px;
+            }
+            .contact img{
+                height: 200px;
+                width: 300px;
+                
+            }
+            .contact h2{
+                font-size: 25px;
+
+            }
+            .contact p{
+                font-size: 10px;
+            }
+            
+            .contact-right{
+                margin-top: -72px;
+                height: auto;
+                width: 200px;
+            }
+
+}
+
+     /*------------ responsive for mobile */
+ /* responsive for mobile */
+ /* responsive for mobile */
+ /* responsive for mobile ------------------*/
+
+ @media only screen and (max-width: 700px){
+    .nav ul{
+        display: none;
+    }
+    .camera-left h1{
+        font-size: 25px;
+        
+    }
+    .camera-left p{
+        font-size: 14px;
+       
+    }
+    .camera-right img{
+        height: auto;
+        width: 300px;
+    }
+
+
+    .photo-frame{
+             width: 80%;
+            display: grid;
+            grid-template-columns: 1fr ;
+            column-gap: 50px;
+            }
+     .photo-frame img{
+                width: 100%;
+                height: auto;
+            }
+    .logos{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                align-items: center;
+                justify-content: center
+            }
+     .logos img{
+                margin-top: 30px;
+            }
+            .contact{
+                width: 80%;
+                display: grid;
+                grid-template-columns: 1fr ;
+                column-gap: 50px;
+            }
+            .contact img{
+                height: 200px;
+                width: 300px;
+                
+            }
+            .contact h2{
+                font-size: 25px;
+
+            }
+            .contact p{
+                font-size: 10px;
+            }
+            
+            .contact-right{
+                margin-top: -72px;
+                height: auto;
+                width: 200px;
+            }
+
 }
