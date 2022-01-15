@@ -225,6 +225,22 @@ footer{
         height: auto;
         width: 300px;
     }
+    .text-field {
+        width: 100%;
+        margin: 5px 0;
+        padding: 6px;
+        font-size: 12px;
+        outline: 0;
+        border: 1px solid #E02C6D;
+    }
+    .contact h2 {
+        font-size: 22px;
+    }
+    .contact-right {
+        margin-top: -11px;
+        height: auto;
+        width: 200px;
+    }
 
 
     .photo-frame{
@@ -257,19 +273,37 @@ footer{
                 width: 300px;
                 
             }
+            .popular-collection h2 {
+                font-size: 30px;
+                text-align: center;
+                margin-top: 100px;
+                color: #E02C6D;
+                display: block;
+                margin-bottom: 30px;
+            }
             .contact h2{
-                font-size: 25px;
+                font-size: 21px;
 
+            }
+            .primary-button {
+                padding: 10px 24px;
+                background-color: #E02C6D;
+                color: white;
+                border: none;
+                border-radius: 41px;
+                font-weight: bold;
+                font-size: 10px;
+                margin-top: 16px;
+                cursor: pointer;
+            }
+            .section-title h2 {
+                font-size: 26px;
             }
             .contact p{
                 font-size: 10px;
             }
             
-            .contact-right{
-                margin-top: -72px;
-                height: auto;
-                width: 200px;
-            }
+            
             .container{
                 display: grid;
                 justify-content: center;
@@ -282,7 +316,7 @@ footer{
  /* responsive for mobile */
  /* responsive for mobile ------------------*/
 
- @media only screen and (max-width: 762px){
+ @media only screen and (max-width: 754px){
      .container{
          display: block;
 
