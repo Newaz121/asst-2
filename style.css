@@ -316,7 +316,7 @@ footer{
  /* responsive for mobile */
  /* responsive for mobile ------------------*/
 
- @media only screen and (max-width: 754px){
+ @media only screen and (max-width: 867px){
      .container{
          display: block;
 
@@ -428,6 +428,9 @@ footer{
                 margin-top: 16px;
                 cursor: pointer;
             
+            }
+            .section-title h2 {
+                font-size: 29px;
             }
 
 
